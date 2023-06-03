@@ -1,0 +1,9 @@
+[versions]
+jvmToolchain = "17"
+paper = "1.19.4-R0.1-SNAPSHOT"
+
+[libraries]
+paper = { group = "io.papermc.paper", name = "paper-api", version.ref = "paper" }
+
+[plugins]
+spotless = { id = "com.diffplug.spotless", version = "6.+" }
